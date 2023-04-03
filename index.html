@@ -33,7 +33,7 @@
             <div class="text-center">
                 <h1 class="mx-auto my-0 text-uppercase">AI Training Plans</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">Create a personalized training plan with the guidance of an
-                    AI coach.</h2>
+                    chatbot coach.</h2>
                 <a class="btn btn-primary" href="#about">Get Started</a>
             </div>
         </div>
@@ -94,7 +94,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="row gx-0 py-3">
+                <div class="row gx-0 mt-4 py-3">
                     <button type="submit" class="btn btn-primary">Generate</button>
                 </div>
             </form>
@@ -107,46 +107,43 @@
         <div class="row gx-4 gx-lg-5">
             <div class="col-md-10 col-lg-8 mx-auto text-center">
                 <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                <p id="downloaded-plan" class="text-white text-sm-center invisible">See the downloaded PDF for your training plan.</p>
-                <h2 class="text-white mb-5">Full chatbot customization coming soon!</h2>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <!-- Email address input-->
-                    <div class="row input-group-newsletter">
-                        <div class="col"><input class="form-control" id="emailAddress" type="email"
-                                                placeholder="Enter email address..." aria-label="Enter email address..."
-                                                data-sb-validations="required,email"/></div>
-                        <div class="col-auto">
-                            <button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button>
+                <p id="downloaded-plan" class="text-white text-sm-center invisible">See the downloaded PDF for your
+                    training plan.</p>
+                <h2 class="text-white">Full chatbot customization coming soon!</h2>
+                <p class="text-white text-sm-center mb-5">Enter your email to find out when it's released.</p>
+                <form action="https://gmail.us9.list-manage.com/subscribe/post?u=c894c11a2255919c451c093ad&amp;id=b051bb5644&amp;f_id=000c2de1f0"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                      target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="row input-group-newsletter">
+                            <div class="col">
+                                <div class="mc-field-group">
+                                    <input class="form-control" placeholder="Enter email address..."
+                                           aria-label="Enter email address..." type="email" value="" name="EMAIL"
+                                           id="mce-EMAIL"
+                                           required>
+                                    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                </div>
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                                          name="b_c894c11a2255919c451c093ad_b051bb5644"
+                                                                                                          tabindex="-1">
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" value="Notify Me!" name="subscribe"
+                                               id="mc-embedded-subscribe" class="btn btn-primary">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.
-                    </div>
-                    <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3 mt-2 text-white">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br/>
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
                     </div>
                 </form>
             </div>
@@ -157,8 +154,7 @@
 <section class="contact-section bg-black">
     <div class="container px-4 px-lg-5">
         <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
+            <a class="mx-2" href="mailto:mytrainingplanai@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
     </div>
 </section>
