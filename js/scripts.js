@@ -67,7 +67,7 @@ form.addEventListener('submit', (event) => {
     downloadLink.click();
     document.body.removeChild(downloadLink);
 
-    const access = document.getElementById("signup");
+    const access = document.getElementById("contact");
     access.scrollIntoView({behavior: 'smooth'}, true);
 
     const downloadedPlan = document.getElementById("downloaded-plan");
