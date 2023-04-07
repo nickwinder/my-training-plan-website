@@ -4,7 +4,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWTCMJT320"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-MWTCMJT320');
@@ -66,46 +70,9 @@
     <div class="container px-4 px-lg-5">
         <!-- Featured Project Row-->
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-            <form id="generate-training-plan">
-                <div class="row text-center">
-                    <div class="col">
-                        <label for="distance">
-                            Distance
-                            <select class="form-control form-control-lg" id="distance">
-                                <option value="5">5km</option>
-                                <option value="10" selected="selected">10km</option>
-                                <option value="21">1/2 Marathon</option>
-                                <option value="42">Marathon</option>
-                                <option value="50">50km</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label for="duration">
-                            Distance
-                            <select class="form-control form-control-lg" id="duration">
-                                <option value="8">8 week</option>
-                                <option value="12" selected="selected">12 week</option>
-                                <option value="16">16 week</option>
-                                <option value="20">20 week</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="col">
-                        <label for="rest-days">
-                            No. of rest days
-                            <select class="form-control form-control-lg" id="rest-days">
-                                <option value="1">1</option>
-                                <option value="2" selected="selected">2</option>
-                                <option value="3">3</option>
-                            </select>
-                        </label>
-                    </div>
-                </div>
-                <div class="row gx-0 mt-4 py-3">
-                    <button type="submit" class="btn btn-primary">Generate</button>
-                </div>
-            </form>
+            <div class="col-lg-8">
+                <img src="assets/img/trainingplan-adjustment.gif" alt="Example of AI Training Plan">
+            </div>
         </div>
     </div>
 </section>
@@ -152,6 +119,56 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="row gx-4 gx-lg-5 mt-5">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <form id="generate-training-plan">
+                    <div class="row text-center">
+                        <div class="col">
+                            <label class="text-white" for="distance">
+                                Distance
+                                <select class="form-control form-control-lg" id="distance">
+                                    <option value="5">5km</option>
+                                    <option value="10" selected="selected">10km</option>
+                                    <option value="21">1/2 Marathon</option>
+                                    <option value="42">Marathon</option>
+                                    <option value="50">50km</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="text-white" for="duration">
+                                Distance
+                                <select class="form-control form-control-lg" id="duration">
+                                    <option value="8">8 week</option>
+                                    <option value="12" selected="selected">12 week</option>
+                                    <option value="16">16 week</option>
+                                    <option value="20">20 week</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label class="text-white" for="rest-days">
+                                No. of rest days
+                                <select class="form-control form-control-lg" id="rest-days">
+                                    <option value="1">1</option>
+                                    <option value="2" selected="selected">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row gx-0 mt-4 py-3">
+                        <button type="submit" class="btn btn-primary">Generate</button>
                     </div>
                 </form>
             </div>
